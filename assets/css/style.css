@@ -44,6 +44,7 @@ h1,h2,h3,h4 {
     
 }
 
+@media(min-width: 992px) {
 .section-column{
     padding: 0 30px 30px;
     float: none;
@@ -61,6 +62,8 @@ h1,h2,h3,h4 {
     margin-top: 25px;
     margin-bottom: 0px;
     color: #6e6e6e;
+    margin-bottom: 42px;
+    
 }
 
 
@@ -225,14 +228,16 @@ footer .cv-pdf i:hover{
  .contact-heading {
  font-family: "Exo",sans-serif;
  font-weight: 300;
- margin-top: 25px;
+ margin-top:30px;
  margin-bottom: 20px;
  padding-right: 70px;
+ 
 }
 
 .center-form {
     padding-top: 30px;
-    margin: 0 auto;
+    padding-right: 50px;
+    margin: 30px auto;
     max-width: 70%;
 }
 button[type="submit"]{
@@ -241,3 +246,5 @@ button[type="submit"]{
     background-color: #e84610;
     color: #fafafa;
 }
+
+    
